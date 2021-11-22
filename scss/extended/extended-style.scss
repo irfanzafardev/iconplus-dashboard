@@ -161,3 +161,59 @@
   font-weight: 700;
   color: #3B76EF;
 }
+
+#myChart {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}
+
+#myChart1 {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}
+
+.zc-ref {
+  display: none;
+}
+
+.keuangan-input {
+  .card-body {
+    form {
+      .form-heading {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 33px;
+        color: #424874;
+      }
+      .custom-select {
+        padding: 0 10px;
+        max-height: 32px;
+        background-color: #EDEDF1;
+        border-radius: 30px;
+        border: none;
+      }
+      input.casual-input {
+        padding: 0 10px;
+        max-height: 32px;
+        background-color: #EDEDF1;
+        border-radius: 30px;
+        border: none;
+      }
+
+      input.file-input {
+        background-color: #EDEDF1;
+        max-height: 32px;
+        border-radius: 30px;
+        border: none;
+      }
+
+      button {
+        border-radius: 30px;
+        max-height: 32px;
+        font-size: 14px;
+      }
+    }
+  }
+}

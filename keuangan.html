@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ICON+ | Program</title>
+  <title>ICON+ | Keuangan</title>
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,12 +21,11 @@
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link href="css/extended-style.css" rel="stylesheet">
   <link href="css/sidebar-style.css" rel="stylesheet">
-  <link href="css/table.css" rel="stylesheet">
   <link href="css/progress.css" rel="stylesheet">
+
 
   <!-- Custom styles for this page -->
   <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
 
 </head>
 
@@ -83,7 +81,7 @@
               </div>
           </div>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="program.html">
             <!-- <i class="fas fa-fw fa-table"></i> -->
             <img src="./assets/icons/form.png" alt="form" width="16px">
@@ -101,7 +99,7 @@
             <img src="./assets/icons/monitor.png" alt="form" width="16px">
             <span>Monitoring</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="keuangan.html">
             <!-- <i class="fas fa-fw fa-table"></i> -->
             <img src="./assets/icons/money.png" alt="form" width="16px">
@@ -118,169 +116,6 @@
 
     </ul>
     <!-- End of Sidebar -->
-
-    <!-- Review sidebar -->
-    <nav style="z-index: 10;" class="navbar-review d-flex flex-column align-item-start bg-white" id="sidebar">
-      <div class="comment-heading container d-flex justify-content-between mt-3">
-        <span style="color: #5A5C69;">Review</span>
-        <button type="button" class="btn text-white" id="menu-btn-close">
-          <img class="p-0" src="./img/cancel.png" alt="cancel">
-        </button>
-      </div>
-      <div class="comment-section container d-block mt-2">
-        <h6 class="d-inline font-weight-bold text-primary">Laporan Keuangan Tahunan</h6>
-        <span class="d-inline">|</span>
-        <h6 class="comment-info d-inline text-gray-800">Row 1</h6>
-        <div class="form-floating my-3">
-          <textarea class="form-control" placeholder="Add a comment" id="floatingTextarea"></textarea>
-          <label for="floatingTextarea">Add a comment</label>
-        </div>
-        <div class="submit-button d-flex justify-content-end">
-          <a href="#" type="submit" class="btn btn-primary mb-3 py-0 px-3">Add</a>
-        </div>
-        <div class="comment-display d-block mt-2">
-          <div class="display-heading">
-            <h6 class="d-inline">All comments</h6>
-            <span class="d-inline">|</span>
-            <h6 class="comment-info d-inline">2 comments</h6>
-          </div>
-          <div class="comment-list my-3">
-            <div class="comment-item">
-              <div class="d-flex justify-content-between">
-                <div class="comment-user">
-                  <img class="img-fluid mr-2 mb-0" src="./img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>
-                      Aldo Bramantio
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                </div>
-                <span class="d-inline-block">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- <i class="fas fa-ellipsis-v"></i> -->
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                      <!-- <li><a class="dropdown-item" href="#">Report</a></li> -->
-                    </ul>
-                  </div>
-                </span>
-              </div>
-              <p>Mohon laporan progress segera diperbaharui</p>
-              <div class="action-button d-flex">
-                <a class="ml-auto" id="reply-btn" href="#">reply</a>
-              </div>
-            </div>
-            <div class="comment-item pl-3 mt-3">
-              <div class="d-flex justify-content-between">
-                <div class="comment-user">
-                  <img class="img-fluid mr-2 mb-0" src="./img/profile-user.png" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>
-                      Irfan Zafar
-                    </h6>
-                    <span>15:35 | June 30</span>
-                  </div>
-                </div>
-                <span class="d-inline-block">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- <i class="fas fa-ellipsis-v"></i> -->
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                          href="#">Delete</a></li>
-                      <!-- <li><a class="dropdown-item" href="#">Report</a></li> -->
-                    </ul>
-                  </div>
-                </span>
-              </div>
-              <p>Baik pak, dimengerti.</p>
-              <div class="action-button d-flex">
-                <a class="ml-auto" id="reply-btn-2" href="#">reply</a>
-              </div>
-            </div>
-            <!-- <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="./img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio 
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span> 
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div>
-                <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="./img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio 
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span> 
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div>
-                <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="./img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio 
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span> 
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div> -->
-          </div>
-          <div class="form-floating reply-form-section d-none d-lg-block m-0 ml-0 mr-2" id="reply-form">
-            <textarea class="form-control reply" placeholder="Add a reply" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Add a reply</label>
-            <div class="submit-reply-button d-flex justify-content-end mt-3">
-              <a href="#" type="submit" class="btn btn-primary mb-3 py-0">Reply</a>
-            </div>
-          </div>
-        </div>
-    </nav>
-    <!-- Review sidebar -->
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -339,7 +174,7 @@
                 aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-bell fa-fw"></i>
                 <!-- Counter - Alerts -->
-                <span class="badge badge-danger badge-counter">1</span>
+                <span class="badge badge-primary text-white badge-counter">1</span>
               </a>
               <!-- Dropdown - Alerts -->
               <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -358,29 +193,7 @@
                     <span class="font-weight-bold">New progress updated</span>
                   </div>
                 </a>
-                <!-- <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 7, 2019</div>
-                                        $290.29 has been deposited into your account!
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 2, 2019</div>
-                                        Spending Alert: We've noticed unusually high spending for your account.
-                                    </div>
-                                </a>
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a> -->
+                
               </div>
             </li>
 
@@ -453,7 +266,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Aldo Bramantio Nugroho</span>
-                <img class="img-profile rounded-circle" src="img/profile-user.png" width="32px">
+                <img class="img-profile rounded-circle" src="img/user.png" width="32px">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -482,72 +295,50 @@
         </nav>
         <!-- End of Topbar -->
 
-
-        <div class="container-fluid">
-  
-          <!-- Content Row -->
-
-        </div>
-
-
         <!-- Begin Page Content -->
-        <div class="container-fluid">
+        <section class="main-content">
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
 
-          <!-- Page Heading -->
-          <h1 class="h3 mb-2 heading-1 px-3">Program</h1>
-          <!-- DataTales Example -->
-          <div class="card border-0 mb-4">
-            <div class="card-header border-0 py-3">
-              <span class="heading-2">Data Program</span>
-            </div>  
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table mb-5" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>ID Tugas</th>
-                      <th>No Surat</th>
-                      <th>Perihal</th>
-                      <th>Tgl Surat</th>
-                      <th>Nama Pekerjaan</th>
-                      <th>Pemberi Kerja</th>
-                      <th>Kategori</th>
-                      <th>PIC</th>
-                      <th>Target Selesai</th>
-                      <th>Dokumen</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="align-middle">1</td>
-                      <td class="align-middle">P001</td>
-                      <td class="align-middle">SA2134</td>
-                      <td class="align-middle">-</td>
-                      <td class="align-middle">2021/10/20</td>
-                      <td class="align-middle">Instalasi Jaringan</td>
-                      <td class="align-middle">PIN</td>
-                      <td class="align-middle">PS</td>
-                      <td class="align-middle">VP Backbone</td>
-                      <td class="align-middle">2021/10/20</td>
-                      <td class="align-middle">-</td>
-                      <!-- <td class="align-middle">
-                        <div class="progress">
-                          <div class="progress-done" data-done="34" time-left="10">
-                            34%
-                          </div>
-                        </div>
-                      </td> -->
-                    </tr>
-                  </tbody>
-                </table>
+            <!-- Page Heading -->
+            <h1 class="h3 mb-2 heading-1 px-3">Keuangan</h1>
+            <!-- DataTales Example -->
+            <div class="card border-0 mb-4">
+              <div class="card-header border-0 py-3">
+                <span class="heading-2">Data Keuangan</span>
+                <a href="keuangan-input.html"><button type="button" class="btn btn-blue text-white float-right">Tambah Laporan</button></a>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table mb-5" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Nama Proyek</th>
+                        <th>Judul Laporan</th>
+                        <th>Tanggal</th>
+                        <th>Periode Keuangan (Bulan)</th>
+                        <th>Dokumen</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="align-middle">1</td>
+                        <td class="align-middle">Penginstlan Aplikasi</td>
+                        <td class="align-middle">Laporan Keuangan Penginstalan</td>
+                        <td class="align-middle">2021-11-17</td>
+                        <td class="align-middle">September - November</td>
+                        <td class="align-middle">-</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- /.container-fluid -->
-      </div>
-      <!-- End of Main Content -->
+          
+          <!-- End of Main Content -->
+        </section>
 
 
       <!-- Footer -->
@@ -613,6 +404,7 @@
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script nonce="undefined" src="https://cdn.zingchart.com/zingchart.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
@@ -633,51 +425,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    $(function () {
-      $(".fold-table tr.view").on("click", function () {
-        $(this).toggleClass("open").next(".fold").toggleClass("open");
-      });
-    });
-  </script>
-
-  <script>
-    var menu_btn = document.querySelector("#menu-btn")
-    var menu_btn_close = document.querySelector("#menu-btn-close")
-    var sidebar = document.querySelector("#sidebar")
-    var container = document.querySelector(".my-container")
-    menu_btn.addEventListener("click", () => {
-      sidebar.classList.toggle("active-nav")
-    })
-    // var menu_btn_2 = document.querySelector("#menu-btn-2")
-    // menu_btn_2.addEventListener("click", () => {
-    //     sidebar.classList.toggle("active-nav")
-    //     container.classList.toggle("active-cont")
-    // })
-    menu_btn_close.addEventListener("click", () => {
-      sidebar.classList.toggle("active-nav")
-      container.classList.toggle("active-cont")
-    })
-
-    var reply_btn = document.querySelector("#reply-btn")
-    var reply_btn_2 = document.querySelector("#reply-btn-2")
-    var reply_form = document.querySelector("#reply-form")
-    reply_btn.addEventListener("click", () => {
-      reply_form.classList.toggle("active-form")
-    })
-    reply_btn_2.addEventListener("click", () => {
-      reply_form.classList.toggle("active-form")
-    })
-
-    const progress = document.querySelector('.progress-done');
-    // progress.style.width = progress.getAttribute('data-done') + '%';
-    // progress.style.opacity = 1;
-
-    setTimeout(() => {
-      progress.style.opacity = 1;
-      progress.style.width = progress.getAttribute('data-done') + '%';
-    }, 10)
-  </script>
 </body>
 
 </html>
